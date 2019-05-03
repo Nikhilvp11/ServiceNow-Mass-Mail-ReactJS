@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-05-02 17:08:40">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Mass Mail</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>461d3456db203300e6aeab7dca961902</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>655922a3db413300e6aeab7dca96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_1cf69d16db603300e6aeab7dca96194e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_mass_mail</description><name>u_mass_mail</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>1cf69d16db603300e6aeab7dca96194e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_1cf69d16db603300e6aeab7dca96194e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>313141764</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>2159aaa3db413300e6aeab7dca961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6c4d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>18f69d165e603300334c92ce318bcd50</update_guid>
+<update_guid_history>18f69d165e603300334c92ce318bcd50:313141764</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_mass_mail_u_message</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_message" table="u_mass_mail"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Message&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_message&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;1000&lt;/max_length&gt;&lt;name&gt;u_mass_mail&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-03 17:31:44&lt;/sys_created_on&gt;&lt;sys_id&gt;9e785196db603300e6aeab7dca96194b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Message&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_mass_mail_u_message&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-03 17:31:44&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>814364952</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>255922a3db413300e6aeab7dca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e441b0e70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Message</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6c8891962f60330031886a063d3efe12</update_guid>
+<update_guid_history>6c8891962f60330031886a063d3efe12:814364952</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_a041a63bdba03300e6aeab7dca961916</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_mass_mail&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Mass Mail - Generate Users&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	//Build Users
+	var users = "";
+	var userArray = [];
+	if (!gs.nil(current.u_to.user)){
+		users += current.u_to.user.split(',') + ",";
+	}
+	gs.log("Nikhil" + users);
+	
+	//Build Users from Groups
+	var grGetGroupUsers = new GlideRecord('sys_user_grmember');
+	grGetGroupUsers.addActiveQuery();
+	grGetGroupUsers.addQuery('group','IN',current.u_to.group.split(','));
+	grGetGroupUsers.query();
+	
+	while (grGetGroupUsers.next()) {
+		userArray.push(grGetGroupUsers.user.sys_id.toString());
+	}
+	
+	gs.log("Nikhil 2nd" + userArray.length)
+	
+	//Build Users from Roles
+	var grGetRoleUsers = new GlideRecord('sys_user_has_role');
+	grGetRoleUsers.addActiveQuery();
+	grGetRoleUsers.addQuery('role','IN',current.u_to.role.split(','));
+	grGetRoleUsers.query();
+	
+	while (grGetRoleUsers.next()) {
+		userArray.push(grGetGroupUsers.user.sys_id.toString());
+	}
+	gs.log("Nikhil 3rd" + userArray.length)
+	
+	//Build Users from Companies
+	var grGetCLDUsers = new GlideRecord('sys_user');
+	grGetCLDUsers.addActiveQuery();
+	grGetCLDUsers.addQuery('company','IN',current.u_to.company.split(','));
+	grGetCLDUsers.query();
+	
+	while (grGetCLDUsers.next()) {
+		userArray.push(grGetCLDUsers.getValue('sys_id'));
+	}
+	
+	//Build Users from Locations
+	var grGetLocUsers = new GlideRecord('sys_user');
+	grGetLocUsers.addActiveQuery();
+	grGetLocUsers.addQuery('location','IN',current.u_to.location.split(','));
+	grGetLocUsers.query();
+	
+	while (grGetLocUsers.next()) {
+		userArray.push(grGetLocUsers.getValue('sys_id'));
+	}
+	
+	//Build Users from Departments
+	var grGetDepUsers = new GlideRecord('sys_user');
+	grGetDepUsers.addActiveQuery();
+	grGetDepUsers.addQuery('department','IN',current.u_to.department.split(','));
+	grGetDepUsers.query();
+	
+	while (grGetDepUsers.next()) {
+		userArray.push(grGetDepUsers.getValue('sys_id'));
+	}
+	
+	users+= userArray.join();
+	gs.log("Nikhil 5nd" + userArray.length)
+	
+	current.setValue('u_users',users);
+	current.update();
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-08 14:52:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a041a63bdba03300e6aeab7dca961916&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mass Mail - Generate Users&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_a041a63bdba03300e6aeab7dca961916&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-27 19:33:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a041a63bdba03300e6aeab7dca961916"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-203685944</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>2559aaa3db413300e6aeab7dca961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a604a19b40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail - Generate Users</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>1f9a1186ed0533003942c9de8a08591b</update_guid>
+<update_guid_history>1f9a1186ed0533003942c9de8a08591b:-203685944,8b5a5946f6053300eb0d4b3f9eade453:305788293,f21a59464805330055989b5f0cbb9c77:1187837263,52e95546a2053300638dd9f4c96b5363:-1750103304,d18951461b0533008a7abf42700e18fc:-101319170,6449114636053300a0a74934120c67b8:1920334874,b5b85dc2650533008e125f16400db35a:-2041123590,60889906f9053300ba66d59e1169c24c:1366197300,287b22ff03a03300d32eb2e47d79e9c3:1673651144,964b2abf12a033009644d6e44a7c39d4:304083224,86ba6abf78a03300fb8d0b383d70783d:-907594148,947a6e7fa4a03300e6826dbc309178b4:-1746375567,7439e67f50a03300a8fb65e487611b12:-1730397362,8187ee3b51a033007d33fa254d836b32:764052788,9d0426bbe7a03300aea893b31f21c28a:-566292423</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_10f69d16db603300e6aeab7dca96196a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_mass_mail</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>10f69d16db603300e6aeab7dca96196a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_10f69d16db603300e6aeab7dca96196a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-29166566</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>2559aaa3db413300e6aeab7dca961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6dab0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>u_mass_mail</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>10f69d1697603300d71b5561c4a9f06b</update_guid>
+<update_guid_history>10f69d1697603300d71b5561c4a9f06b:-29166566</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_078791cedbc13300e6aeab7dca961972</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Mass Mail">8cf69d16db603300e6aeab7dca96193a</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Mass Mails</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_mass_mail</name><order/><override_menu_roles>false</override_menu_roles><query>https://dev70578.service-now.com/ui_page.do?sys_id=740a0d75db813300e6aeab7dca9619aa#/</query><report/><roles>u_mass_mail_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-27 19:20:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>078791cedbc13300e6aeab7dca961972</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Mass Mail App</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_078791cedbc13300e6aeab7dca961972</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-27 19:21:10</sys_updated_on><timeline_page/><title>Mass Mail App</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>329979897</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>295922a3db413300e6aeab7dca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a603e83bc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail App</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>7db75dc2f8053300d9389166285a5751</update_guid>
+<update_guid_history>7db75dc2f8053300d9389166285a5751:329979897,478799c2e805330008a25214b91b2a5b:-1458879953</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mass_mail_u_users_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_users" label="Users" language="en" table="u_mass_mail"><sys_documentation action="INSERT_OR_UPDATE"><element>u_users</element><help/><hint/><label>Users</label><language>en</language><name>u_mass_mail</name><plural>Users</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 15:15:49</sys_created_on><sys_id>6a592a7fdba03300e6aeab7dca961905</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Users</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mass_mail_u_users_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 15:15:49</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1818172348</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>2959aaa3db413300e6aeab7dca96194f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169fd8510150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Users</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>fa596a7f1ca03300d4aecbdb1343b9bf</update_guid>
+<update_guid_history>fa596a7f1ca03300d4aecbdb1343b9bf:1818172348</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_58f69d16db603300e6aeab7dca961941</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Mass Mail">0cf69d16db603300e6aeab7dca96193f</application><filter/><name>Mass Mails</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_mass_mail_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>58f69d16db603300e6aeab7dca961941</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mass Mails</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_58f69d16db603300e6aeab7dca961941</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><table>u_mass_mail</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-1877605314</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>2959aaa3db413300e6aeab7dca961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6b330000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mails</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>98f69d16a360330070c7adc21264b942</update_guid>
+<update_guid_history>98f69d16a360330070c7adc21264b942:-1877605314</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mass_mail_u_message_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_message" label="Message" language="en" table="u_mass_mail"><sys_documentation action="INSERT_OR_UPDATE"><element>u_message</element><help/><hint/><label>Message</label><language>en</language><name>u_mass_mail</name><plural>Messages</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:31:44</sys_created_on><sys_id>e8889196db603300e6aeab7dca96190d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Message</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mass_mail_u_message_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:31:44</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1325266851</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>2d59aaa3db413300e6aeab7dca96194e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e441b0f80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Message</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>20889196ad603300ee64580d9ceb7e14</update_guid>
+<update_guid_history>20889196ad603300ee64580d9ceb7e14:-1325266851</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_58f69d16db603300e6aeab7dca961956</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>58f69d16db603300e6aeab7dca961956</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail.u_mass_mail_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_mass_mail">10f69d16db603300e6aeab7dca961954</sys_security_acl><sys_update_name>sys_security_acl_role_58f69d16db603300e6aeab7dca961956</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><sys_user_role display_value="u_mass_mail_user" name="u_mass_mail_user">80f69d9edb203300e6aeab7dca961927</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1149709714</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>2d59aaa3db413300e6aeab7dca961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6c9e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail.u_mass_mail_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>d4f69d16aa60330059e63b1e5fa48d58</update_guid>
+<update_guid_history>d4f69d16aa60330059e63b1e5fa48d58:-1149709714</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_mass_mail_u_from</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_from" table="u_mass_mail"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;From&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_from&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;u_mass_mail&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-03 17:31:16&lt;/sys_created_on&gt;&lt;sys_id&gt;3d581556db603300e6aeab7dca9619cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;From&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_mass_mail_u_from&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-03 17:31:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1699789240</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>615922a3db413300e6aeab7dca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e44145490000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.From</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7968dd56486033009bcbb3205202a8b9</update_guid>
+<update_guid_history>7968dd56486033009bcbb3205202a8b9:-1699789240</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_ba2966a3db413300e6aeab7dca9619c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.email.smtp.max_recipients</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-02 17:08:05</sys_created_on><sys_id>ba2966a3db413300e6aeab7dca9619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.email.smtp.max_recipients</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_ba2966a3db413300e6aeab7dca9619c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-02 17:08:05</sys_updated_on><type>string</type><value>1000</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=ba2966a3db413300e6aeab7dca9619c4"/></record_update>]]></payload>
+<payload_hash>650875927</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6159aaa3db413300e6aeab7dca961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a79847b710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>glide.email.smtp.max_recipients</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>5d39a6a307413300cbce0b768ddf531e</update_guid>
+<update_guid_history>5d39a6a307413300cbce0b768ddf531e:650875927</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_80f69d9edb203300e6aeab7dca961927</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_mass_mail_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:52</sys_created_on><sys_id>80f69d9edb203300e6aeab7dca961927</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_80f69d9edb203300e6aeab7dca961927</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:52</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>943005014</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6159aaa3db413300e6aeab7dca961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6a460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>u_mass_mail_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>40f69d16b36033008343b2bf65b8a437</update_guid>
+<update_guid_history>40f69d16b36033008343b2bf65b8a437:943005014</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_04f69d16db603300e6aeab7dca96193d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Mass Mail">8cf69d16db603300e6aeab7dca96193a</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Mass Mails</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_mass_mail</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_mass_mail_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>04f69d16db603300e6aeab7dca96193d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mass Mails</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_04f69d16db603300e6aeab7dca96193d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><timeline_page/><title>Mass Mails</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>750259728</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>655922a3db413300e6aeab7dca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a6036362c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mails</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>71a79582000533001ebda7f70ebbde53</update_guid>
+<update_guid_history>71a79582000533001ebda7f70ebbde53:750259728,05a595827005330071fe03d05d1748f8:-1458879953,0cf69d168f603300b0ec071520e3a43e:750259728</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mass_mail_u_to_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_to" label="To" language="en" table="u_mass_mail"><sys_documentation action="INSERT_OR_UPDATE"><element>u_to</element><help/><hint/><label>To</label><language>en</language><name>u_mass_mail</name><plural>Tos</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:27:09</sys_created_on><sys_id>a5771556db603300e6aeab7dca9619a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>To</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mass_mail_u_to_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:27:09</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1056127301</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6559aaa3db413300e6aeab7dca96194f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43d821a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.To</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e1771556da60330087a74c469d1351ac</update_guid>
+<update_guid_history>e1771556da60330087a74c469d1351ac:-1056127301</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_mass_mail_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_mass_mail" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_to</element><list_id display_value="u_mass_mail" element="NULL" name="u_mass_mail" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4911a23bdba03300e6aeab7dca96190a</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 14:39:40</sys_created_on><sys_id>8511a23bdba03300e6aeab7dca96190b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 14:39:40</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_subject</element><list_id display_value="u_mass_mail" element="NULL" name="u_mass_mail" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4911a23bdba03300e6aeab7dca96190a</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 14:39:40</sys_created_on><sys_id>4d11a23bdba03300e6aeab7dca96190b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 14:39:40</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_from</element><list_id display_value="u_mass_mail" element="NULL" name="u_mass_mail" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4911a23bdba03300e6aeab7dca96190a</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 14:39:40</sys_created_on><sys_id>cd11a23bdba03300e6aeab7dca96190b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 14:39:40</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="u_mass_mail" element="NULL" name="u_mass_mail" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4911a23bdba03300e6aeab7dca96190a</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 14:39:40</sys_created_on><sys_id>4111a23bdba03300e6aeab7dca96190c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 14:39:40</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_mass_mail</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 14:39:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4911a23bdba03300e6aeab7dca96190a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_mass_mail_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 14:39:40</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>80135146</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6559aaa3db413300e6aeab7dca961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169fd63f6ce0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>cd11a23bffa03300b4abcb8a21dbd30d</update_guid>
+<update_guid_history>cd11a23bffa03300b4abcb8a21dbd30d:80135146,a1f69d16b8603300ec78d57b7f65cdf1:-639014948</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mass_mail_u_from_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_from" label="From" language="en" table="u_mass_mail"><sys_documentation action="INSERT_OR_UPDATE"><element>u_from</element><help/><hint/><label>From</label><language>en</language><name>u_mass_mail</name><plural>Froms</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:31:16</sys_created_on><sys_id>7968dd56db603300e6aeab7dca9619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>From</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mass_mail_u_from_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:31:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-897908515</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6959aaa3db413300e6aeab7dca96194e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e441455a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.From</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3d68dd56ac603300bd9e6a51a91054ba</update_guid>
+<update_guid_history>3d68dd56ac603300bd9e6a51a91054ba:-897908515</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_54f69d16db603300e6aeab7dca961951</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>54f69d16db603300e6aeab7dca961951</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail.u_mass_mail_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_mass_mail">1cf69d16db603300e6aeab7dca96194e</sys_security_acl><sys_update_name>sys_security_acl_role_54f69d16db603300e6aeab7dca961951</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><sys_user_role display_value="u_mass_mail_user" name="u_mass_mail_user">80f69d9edb203300e6aeab7dca961927</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>526431475</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6959aaa3db413300e6aeab7dca961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6c670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail.u_mass_mail_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>d0f69d16e1603300536d76bf8eb9ba53</update_guid>
+<update_guid_history>d0f69d16e1603300536d76bf8eb9ba53:526431475</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_mass_mail_u_to</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_to" table="u_mass_mail"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;To&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_to&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_mass_mail&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="user_criteria"&gt;user_criteria&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-03 17:27:09&lt;/sys_created_on&gt;&lt;sys_id&gt;dbf6dd16db603300e6aeab7dca9619cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;To&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_mass_mail_u_to&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-03 17:27:09&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1101497152</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6d5922a3db413300e6aeab7dca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43d82060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.To</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>21771556686033002fb0aaa56ef68aab</update_guid>
+<update_guid_history>21771556686033002fb0aaa56ef68aab:-1101497152</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_18f69d16db603300e6aeab7dca961949</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_mass_mail</description><name>u_mass_mail</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>18f69d16db603300e6aeab7dca961949</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_18f69d16db603300e6aeab7dca961949</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-964717368</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>6d59aaa3db413300e6aeab7dca961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6c180000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>14f69d167e603300c1658c83d5d5fb4b</update_guid>
+<update_guid_history>14f69d167e603300c1658c83d5d5fb4b:-964717368</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_8cf69d16db603300e6aeab7dca96193a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Mass Mail</name><order>100</order><roles>u_mass_mail_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8cf69d16db603300e6aeab7dca96193a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mass Mail</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_8cf69d16db603300e6aeab7dca96193a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><title>Mass Mail</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>220500270</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a15922a3db413300e6aeab7dca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6ab70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>Mass Mail</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>c4f69d16fe60330041bb8931d214453c</update_guid>
+<update_guid_history>c4f69d16fe60330041bb8931d214453c:220500270</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mass_mail_u_subject_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_subject" label="Subject" language="en" table="u_mass_mail"><sys_documentation action="INSERT_OR_UPDATE"><element>u_subject</element><help/><hint/><label>Subject</label><language>en</language><name>u_mass_mail</name><plural>Subjects</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:30:42</sys_created_on><sys_id>ed485d56db603300e6aeab7dca9619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Subject</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mass_mail_u_subject_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:30:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2045259331</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a159aaa3db413300e6aeab7dca96194f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e440c1910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Subject</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a1485d5654603300ffaa724288da09b0</update_guid>
+<update_guid_history>a1485d5654603300ffaa724288da09b0:-2045259331</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_0cf69d16db603300e6aeab7dca96193f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Mass Mail</name><order/><roles>u_mass_mail_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0cf69d16db603300e6aeab7dca96193f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mass Mail</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_0cf69d16db603300e6aeab7dca96193f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-331297495</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a159aaa3db413300e6aeab7dca961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6b080000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>Mass Mail</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>1cf69d166a603300c6985d5015641140</update_guid>
+<update_guid_history>1cf69d166a603300c6985d5015641140:-331297495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_mass_mail_u_users</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_users" table="u_mass_mail"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Users&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_users&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_list&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;name&gt;u_mass_mail&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-08 15:15:49&lt;/sys_created_on&gt;&lt;sys_id&gt;23496a7fdba03300e6aeab7dca961921&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Users&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_mass_mail_u_users&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-10 10:08:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>468797715</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a559aaa3db413300e6aeab7dca96194e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a06b8a5d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Users</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>804673d49a3033000f8bf4667b963ac4</update_guid>
+<update_guid_history>804673d49a3033000f8bf4667b963ac4:468797715,a6596a7f22a03300b56c7bfd996e14be:-1802552793</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_50f69d16db603300e6aeab7dca96194c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>50f69d16db603300e6aeab7dca96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail.u_mass_mail_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_mass_mail">18f69d16db603300e6aeab7dca961949</sys_security_acl><sys_update_name>sys_security_acl_role_50f69d16db603300e6aeab7dca96194c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><sys_user_role display_value="u_mass_mail_user" name="u_mass_mail_user">80f69d9edb203300e6aeab7dca961927</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1377493668</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a559aaa3db413300e6aeab7dca961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6c310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail.u_mass_mail_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>dcf69d16b0603300e2b2adedf981304d</update_guid>
+<update_guid_history>dcf69d16b0603300e2b2adedf981304d:-1377493668</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_b99322afdb013300e6aeab7dca961951</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;u_mass_mail&lt;/collection&gt;&lt;condition table="u_mass_mail"&gt;u_usersISNOTEMPTY^u_usersVALCHANGES^EQ&lt;item endquery="false" field="u_users" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="false" field="u_users" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${u_message}&lt;/p&gt;
+&lt;p&gt;${mail_script:massmail}&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Mass Mail - Send Data&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_users&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject/&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-05-02 16:44:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b99322afdb013300e6aeab7dca961951&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mass Mail - Send Data&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_b99322afdb013300e6aeab7dca961951&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-02 17:08:30&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>479076251</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a95922a3db413300e6aeab7dca96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a7984d9090000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail - Send Data</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>4349a6a398413300d4ff885212abff3f</update_guid>
+<update_guid_history>4349a6a398413300d4ff885212abff3f:479076251,52a86a23f6413300fd734425e9e3a556:743064437,4c94eeafd20133002ab00d56e79dbc49:1998963200,0414eaafb30133007fd59250ba753fb0:40838411,0db3ee676d013300512a391c1bb7f64e:1163377353</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_mass_mail_u_subject</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_subject" table="u_mass_mail"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Subject&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_subject&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;100&lt;/max_length&gt;&lt;name&gt;u_mass_mail&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-03 17:30:42&lt;/sys_created_on&gt;&lt;sys_id&gt;fb879556db603300e6aeab7dca96196f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Subject&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_mass_mail_u_subject&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-03 17:30:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>993250260</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a95922a3db413300e6aeab7dca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e440c1800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Subject</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ed485d56d2603300b7b46be4bfc025ae</update_guid>
+<update_guid_history>ed485d56d2603300b7b46be4bfc025ae:993250260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_10f69d16db603300e6aeab7dca961954</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_mass_mail</description><name>u_mass_mail</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>10f69d16db603300e6aeab7dca961954</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_10f69d16db603300e6aeab7dca961954</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>326648434</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a959aaa3db413300e6aeab7dca961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6c820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>1cf69d167b603300d7a6585b376ea055</update_guid>
+<update_guid_history>1cf69d167b603300d7a6585b376ea055:326648434</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>user_criteria_25431493ff4221009b20ffffffffffe0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria"><user_criteria action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><company>31bea3d53790200044e0bfc8bcbe5dec</company><department>221f79b7c6112284005d646b76ab978c</department><group/><location/><match_all>true</match_all><name>The ACME North America IT Department</name><role/><script/><sys_class_name>user_criteria</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-07-26 14:56:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>25431493ff4221009b20ffffffffffe0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>The ACME North America IT Department</sys_name><sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">e7937f78f9a22300aadb19f57ba621e5</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>user_criteria_25431493ff4221009b20ffffffffffe0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-27 19:34:15</sys_updated_on><user/></user_criteria></record_update>]]></payload>
+<payload_hash>1738105624</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>a959aaa3db413300e6aeab7dca961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a604a7d980000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>The ACME North America IT Department</target_name>
+<type>User Criteria</type>
+<update_domain>global</update_domain>
+<update_guid>e5ba55464b053300b51d5bf1255d4de4</update_guid>
+<update_guid_history>e5ba55464b053300b51d5bf1255d4de4:1738105624,21999146060533004740e2b8eb33e894:-1888634483,299991464d053300efcdd80f9f544692:1738105624</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_mass_mail_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_mass_mail"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_mass_mail&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-03 17:24:53&lt;/sys_created_on&gt;&lt;sys_id&gt;90f69d16db603300e6aeab7dca961959&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_mass_mail&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_mass_mail_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-03 17:24:53&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1360981082</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>ad5922a3db413300e6aeab7dca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6dc00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>54f69d16c86033004915644a27c8e66c</update_guid>
+<update_guid_history>54f69d16c86033004915644a27c8e66c:-1360981082</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_3b70121adbe03300e6aeab7dca96198a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Usage by Web API">b770121adbe03300e6aeab7dca961988</grid_canvas><height>10</height><portal_widget display_value="Created 2016-01-21 16:17:26">6364fbd29f811200ef4afa7dc67fcf69</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 21:36:21</sys_created_on><sys_id>3b70121adbe03300e6aeab7dca96198a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b770121adbe03300e6aeab7dca961988</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_3b70121adbe03300e6aeab7dca96198a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 21:36:21</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>1693931498</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>ad59aaa3db413300e6aeab7dca96194f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e521a56f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>b770121adbe03300e6aeab7dca961988</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>7f70121a64e03300369364c4e11c238b</update_guid>
+<update_guid_history>7f70121a64e03300369364c4e11c238b:1693931498</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_0b771556db603300e6aeab7dca9619df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="0b771556db603300e6aeab7dca9619df" sys_domain="global" table="u_mass_mail" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_to</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-02 16:49:07</sys_created_on><sys_id>c7d426efdb013300e6aeab7dca9619c1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_mass_mail" sys_domain="global" view="Default view">0b771556db603300e6aeab7dca9619df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-02 16:49:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_subject</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-02 16:49:07</sys_created_on><sys_id>8fd426efdb013300e6aeab7dca9619c1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_mass_mail" sys_domain="global" view="Default view">0b771556db603300e6aeab7dca9619df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-02 16:49:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_from</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-02 16:49:07</sys_created_on><sys_id>03d426efdb013300e6aeab7dca9619c2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_mass_mail" sys_domain="global" view="Default view">0b771556db603300e6aeab7dca9619df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-02 16:49:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_reply_to</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-02 16:49:07</sys_created_on><sys_id>83d426efdb013300e6aeab7dca9619c2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_mass_mail" sys_domain="global" view="Default view">0b771556db603300e6aeab7dca9619df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-02 16:49:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_message</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-02 16:49:07</sys_created_on><sys_id>07d426efdb013300e6aeab7dca9619c2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_mass_mail" sys_domain="global" view="Default view">0b771556db603300e6aeab7dca9619df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-02 16:49:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_mass_mail</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:27:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b771556db603300e6aeab7dca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_0b771556db603300e6aeab7dca9619df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:27:16</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1926684879</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>ad59aaa3db413300e6aeab7dca961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a797319c90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>4fd426efe70133001b34cb343902ffc3</update_guid>
+<update_guid_history>4fd426efe70133001b34cb343902ffc3:-1926684879,2e592a7f12a033000fdde76a2a5a7c04:-1203907317,ac8891960a60330005068a8bedae900c:-1926684879,3d78119682603300ab724f43b241e5ae:-425055817,3d68dd56d2603300ccdacca441a031b3:-1979140335,a1485d56d56033002faaaab486c3cfa9:459164124,9377155633603300c9ab4ce76b6737e7:-339699286,53771556246033004233d41e674415e2:-829080944</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_58f69d16db603300e6aeab7dca961943</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_mass_mail</description><name>u_mass_mail</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>58f69d16db603300e6aeab7dca961943</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_58f69d16db603300e6aeab7dca961943</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>975452948</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>e159aaa3db413300e6aeab7dca961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6bbe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>58f69d16eb6033002f869de9514f7c45</update_guid>
+<update_guid_history>58f69d16eb6033002f869de9514f7c45:975452948</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_mass_mail_u_reply_to</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_reply_to" table="u_mass_mail"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Reply to&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_reply_to&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;u_mass_mail&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-03 17:31:32&lt;/sys_created_on&gt;&lt;sys_id&gt;cb685d56db603300e6aeab7dca961952&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reply to&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_mass_mail_u_reply_to&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-03 17:31:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-62078202</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>e55922a3db413300e6aeab7dca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e44184ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Reply to</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>79781196b46033005e2999cea961e9b4</update_guid>
+<update_guid_history>79781196b46033005e2999cea961e9b4:-62078202</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_email_a8242eafdb013300e6aeab7dca9619a2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;massmail&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	email.setSubject(current.getValue('u_subject'));
+	email.setFrom(current.getValue('u_from'));
+	email.setReplyTo(current.getValue('u_reply_to'));
+
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-05-02 16:47:34&lt;/sys_created_on&gt;&lt;sys_id&gt;a8242eafdb013300e6aeab7dca9619a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;massmail&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_a8242eafdb013300e6aeab7dca9619a2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-02 16:47:34&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-768170348</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>e559aaa3db413300e6aeab7dca961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a7971af830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>massmail</target_name>
+<type>Email Script</type>
+<update_domain>global</update_domain>
+<update_guid>e8842aaf05013300d467b726abc83b45</update_guid>
+<update_guid_history>e8842aaf05013300d467b726abc83b45:-768170348</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>user_criteria_04eb7061ff2121009b20ffffffffffa4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria"><user_criteria action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><company>31bea3d53790200044e0bfc8bcbe5dec</company><department>93b25282c0a8000b0b55c8ab34e2f1e6</department><group/><location/><match_all>true</match_all><name>The ACME North America HR Department</name><role/><script/><sys_class_name>user_criteria</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2014-06-26 10:54:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>04eb7061ff2121009b20ffffffffffa4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>The ACME North America HR Department</sys_name><sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">e7937f78f9a22300aadb19f57ba621e5</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>user_criteria_04eb7061ff2121009b20ffffffffffa4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 15:16:12</sys_updated_on><user>6816f79cc0a8016401c5a33be04be441</user></user_criteria></record_update>]]></payload>
+<payload_hash>346707191</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>e559aaa3db413300e6aeab7dca961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169fd8567a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table/>
+<target_name>The ACME North America HR Department</target_name>
+<type>User Criteria</type>
+<update_domain>global</update_domain>
+<update_guid>0c792a7fb8a0330091c5cf1373159c76</update_guid>
+<update_guid_history>0c792a7fb8a0330091c5cf1373159c76:346707191,84792a7fa6a03300299d44cefe381275:-682131966</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_aae65d16db603300e6aeab7dca9619d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Mass Mail</label><live_feed_enabled>false</live_feed_enabled><name>u_mass_mail</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:52</sys_created_on><sys_id>aae65d16db603300e6aeab7dca9619d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mass Mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_aae65d16db603300e6aeab7dca9619d8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:52</sys_updated_on><update_access>false</update_access><user_role display_value="u_mass_mail_user" name="u_mass_mail_user">80f69d9edb203300e6aeab7dca961927</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1888272764</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>e95922a3db413300e6aeab7dca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6ddb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>18f69d16ab603300fc09c40f63e6436e</update_guid>
+<update_guid_history>18f69d16ab603300fc09c40f63e6436e:1888272764</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mass_mail__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Mass Mail" language="en" table="u_mass_mail"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Mass Mail</label><language>en</language><name>u_mass_mail</name><plural>Mass Mails</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>90f69d16db603300e6aeab7dca961960</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mass Mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mass_mail__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1909958589</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>e959aaa3db413300e6aeab7dca96194f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6dcc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>d4f69d163a603300593a70aaa739aa6d</update_guid>
+<update_guid_history>d4f69d163a603300593a70aaa739aa6d:-1909958589</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_sys_app_module_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="sys_app_module" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Module - Default view" name="sys_app_module" related_list="NULL" sys_domain="global" view="Default view">4f97d9c2db053300e6aeab7dca96195b</list_id><order_by/><position>0</position><related_list>REL:147d2022bf230100421cdc2ecf0739e5</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-27 19:20:42</sys_created_on><sys_id>0f97d9c2db053300e6aeab7dca96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-27 19:20:42</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Module - Default view" name="sys_app_module" related_list="NULL" sys_domain="global" view="Default view">4f97d9c2db053300e6aeab7dca96195b</list_id><order_by/><position>1</position><related_list>REL:67bdac52374010008687ddb1967334ee</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-27 19:20:42</sys_created_on><sys_id>4797d9c2db053300e6aeab7dca96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-27 19:20:42</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Module - Default view</calculated_name><filter/><name>sys_app_module</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-27 19:20:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4f97d9c2db053300e6aeab7dca96195b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Module - Default view</sys_name><sys_package display_value="Mobile UI" source="com.glide.ui.m">4e803374f9222300aadb19f57ba62195</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_related_sys_app_module_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-27 19:20:42</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>-1751746764</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>e959aaa3db413300e6aeab7dca961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16a603e15160000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>sys_app_module</table>
+<target_name>Module</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>4b97d9c2c705330020adf316864a8d5e</update_guid>
+<update_guid_history>4b97d9c2c705330020adf316864a8d5e:-1751746764,fe97158297053300c27697503b0016e0:-981674108</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mass_mail_u_reply_to_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_reply_to" label="Reply to" language="en" table="u_mass_mail"><sys_documentation action="INSERT_OR_UPDATE"><element>u_reply_to</element><help/><hint/><label>Reply to</label><language>en</language><name>u_mass_mail</name><plural>Reply to</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:31:32</sys_created_on><sys_id>79781196db603300e6aeab7dca9619af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reply to</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mass_mail_u_reply_to_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:31:32</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1975853690</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>ed59aaa3db413300e6aeab7dca96194e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e44184fe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>Mass Mail.Reply to</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3d78119645603300a8c1b467727acab5</update_guid>
+<update_guid_history>3d78119645603300a8c1b467727acab5:1975853690</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d4f69d16db603300e6aeab7dca961946</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-03 17:24:53</sys_created_on><sys_id>d4f69d16db603300e6aeab7dca961946</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mass_mail.u_mass_mail_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_mass_mail">58f69d16db603300e6aeab7dca961943</sys_security_acl><sys_update_name>sys_security_acl_role_d4f69d16db603300e6aeab7dca961946</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-03 17:24:53</sys_updated_on><sys_user_role display_value="u_mass_mail_user" name="u_mass_mail_user">80f69d9edb203300e6aeab7dca961927</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1544461870</payload_hash>
+<remote_update_set display_value="Mass Mail">655922a3db413300e6aeab7dca96197b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-02 17:08:40</sys_created_on>
+<sys_id>ed59aaa3db413300e6aeab7dca961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169e43b6bf80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-02 17:08:40</sys_updated_on>
+<table>u_mass_mail</table>
+<target_name>u_mass_mail.u_mass_mail_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>98f69d160d603300634538d5d3f94f48</update_guid>
+<update_guid_history>98f69d160d603300634538d5d3f94f48:-1544461870</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

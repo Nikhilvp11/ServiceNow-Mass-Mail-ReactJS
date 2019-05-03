@@ -1,0 +1,13 @@
+.tilecontent {
+     margin:15px;
+}
+
+.tilecontent:hover {
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.tilecontent:hover > * {
+    cursor: pointer;
+    color: #008CBA;
+}

@@ -1,0 +1,24 @@
+.mailsegment {
+    justify-content: unset !important;
+}
+
+.alignfieldsleft {
+    max-width: none !important;
+}
+
+.messagebox {
+    max-width: none !important;
+}
+
+.ui.placeholder.segment textarea {
+    max-width:none;
+}
+
+.ui.placeholder.segment .button {
+    margin-right:0;
+}
+
+.sendbutton:hover {
+    cursor:pointer;
+    color: #008CBA;
+}

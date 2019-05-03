@@ -1,0 +1,8 @@
+.back {
+    justify-content: unset !important;
+}
+
+.backbutton:hover {
+    cursor:pointer;
+    color: #008CBA;
+}
