@@ -32,3 +32,15 @@ To deploy the application into ServiceNow you need to perform the following step
 4. Save HTML file from Build folder as a UI page. Update references to JS/CSS correspondingly.
 
 You can find more details in [this article](https://medium.com/@pishchulin/react-application-in-servicenow-8bdbb1e69c0c).
+
+## Screenshots
+1. Mass Mail Home
+![Mass Mail Home](http://oi66.tinypic.com/2n9j2j4.jpg "Mass Mail Home")
+
+2. Compose Mass Mail
+![Compose Mass Mail](http://oi63.tinypic.com/2cnb441.jpg "Compose Mass Mail")
+
+![Sent Mass Mail](http://oi66.tinypic.com/2ytnw43.jpg "Sent Mass Mail")
+
+3. View Mass Mails
+![View Mass Mails](http://oi64.tinypic.com/oic2fd.jpg "View Mass Mails")
